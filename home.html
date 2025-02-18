@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="title">MKTG APERD PNM-IM</h2>
+            <p class="date">Date: 24 Januari 2025</p>
+            <a href="login.html" class="logout-button">
+                Logout <i class="fa fa-sign-out"></i>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="dashboard">
+        <section class="total-aperd">
+            <strong>Total APERD :</strong>
+            <input type="text" value="11" readonly>
+            <a href="editAmountAperd.html">
+                <button class="edit-button">Edit <i class="fa fa-pencil"></i></button>
+            </a>
+        </section>
+        
+        <table class="aperd-table">
+            <tr>
+                <td><a href="bareksa.html">Bareksa</a></td>
+                <td>MNC Sekuritas</td>
+                <td>IPOT</td>
+            </tr>
+            <tr>
+                <td>Bank DBS</td>
+                <td>AJAIB</td>
+                <td>INVESNOW</td>
+            </tr>
+        </table>
+        
+        <div class="summary">
+            <div class="card">Total AUM<br><strong>Rp2.500.000</strong></div>
+            <div class="card">Total NOA<br><strong>Rp2.500.000</strong></div>
+        </div>
+        
+        <section class="chart">
+            <canvas id="barChart"></canvas>
+        </section>
+    </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
