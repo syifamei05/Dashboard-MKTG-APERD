@@ -1,0 +1,168 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* Navbar */
+.navbar {
+    background: #0056b3;  /* Blue background */
+    padding: 10px 20px;
+    box-shadow: 0px 5px hsl(211, 99%, 27%);
+    margin-bottom: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 60px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.date {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logout-button {
+    background: white;
+    color: #0056b3;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logout-button i {
+    font-size: 14px;
+}
+
+.logout-button:hover {
+    background: #e0e0e0;
+    transition: 0.3s ease-in-out;
+}
+
+/* Back Button */
+.back-button {
+    font-size: 24px;
+    padding: 15px;
+    margin: 20px;
+    color: #99ad70;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* List Items */
+.list {
+    list-style: none; /* Removes default list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background: #f8fbe8; /* Light background color */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px whitesmoke;
+}
+
+.list li:hover {
+    background: #e0e7c0; /* Slightly darker background on hover */
+}
+
+/* .list-card {
+    display: flex;
+    justify-content: space-between;
+
+    #trash {
+        color: rgb(233, 3, 3);
+    }
+} */
+
+.list-item {
+    text-decoration: none; /* Removes underline */
+    color: black; /* Changes text color to black */
+    display: block;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add Remove Button NEW VERSION */
+.card {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.add-button, .remove-button {
+    background: #f8fbe8; /* Light background color */
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between text and icon */
+    text-decoration: none;
+    box-shadow: 3px 3px whitesmoke;
+}
+
+.input-card {
+    padding: 3px;
+    border-radius: 5px;
+    background-color:#f8fbe8;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px whitesmoke;
+}
+
+#inputBox {
+    border-color: #f8fbe8;
+    margin: 3px;
+}
+
+.add-button:hover, .remove-button:hover {
+    background: #e0e7c0; /* Slightly darker background on hover */
+}
+
+/* Icon alignment */
+.add-button i, .remove-button i {
+    font-size: 16px;
+}

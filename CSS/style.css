@@ -1,0 +1,238 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Navbar NEW */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #0056b3;  /* Blue background */
+    padding: 10px 20px;
+    box-shadow: 0px 5px hsl(211, 99%, 27%);
+    margin-bottom: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 60px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.date {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logout-button {
+    background: white;
+    color: #0056b3;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logout-button i {
+    font-size: 14px;
+}
+
+.logout-button:hover {
+    background: #e0e0e0;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* Navbar OLD VERSION */
+/* .navbar {
+    background: #0056b3;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logout-button {
+    background: white;
+    color: #0056b3;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+}
+.logout-button:hover {
+    background: hsl(0, 0%, 93%);
+    transition: 0.25s ease-in-out;
+} */
+
+.dashboard {
+    margin: 50px;
+
+/* Total APERD Section */
+.total-aperd {
+    background: #ffffff;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 3px 3px #d4d4d4;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.edit-button {
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Table */
+.aperd-table {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 3px 3px #d4d4d4;
+}
+.aperd-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+td:hover {
+    background: #e7fee8;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* Summary Cards OLD VERSION */
+.summary {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px #d4d4d4;
+    flex: 1;
+    text-align: center;
+    /* min-width: 150px; */
+}
+
+/* Chart Section NEW VERSION */
+.chart-container {
+    display: flex;
+    justify-content: center; /* Centers charts horizontally */
+    align-items: stretch; /* Makes both charts the same height */
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.chart {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #d4d4d4;
+    flex: 1; /* Ensures equal width */
+    min-width: 500px; /* Prevents charts from being too small */
+    height: 350px; /* Ensures both charts are the same height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+/* Chart Section OLD VERSION*/
+/* .chart-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.chart {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #d4d4d4;
+    flex: 1;
+    max-width: 800px;
+    height: 300px;
+} */
+
+.login-page {
+    background: #c8e6c9;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 3%;
+    box-shadow: 7px 7px 0px 0px #a2c0a38e;
+}
