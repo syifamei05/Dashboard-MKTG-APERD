@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bareksa</title>
-    <link rel="stylesheet" href="./CSS/aperd.css">
+    <link rel="stylesheet" href="/CSS/aperd.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -24,26 +24,40 @@
         <a href="home.html" class="back-button">
             <i class="fa fa-arrow-left"></i>
          </a>
-    
+        
         <!-- Content -->
         <div class="content">
             <div class="content-card">
                 <h2>BAREKSA</h2>
-                <!-- Add Remove Button -->
+                <!-- Add Remove Button NEW VERSION -->
                 <div class="card">
-                    <a href="" class="add-button">Add <i class="fa fa-plus"></i></a>
-                    <a href="" class="remove-button">Remove <i class="fa fa-minus"></i></a>
+                    <div class="input-card">
+                        <input type="text" id="input-box">
+                    </div>
+                    <button type="button" class="add-button" id="add-button">Add <i class="fa fa-plus"></i></button>
+                    <button type="button" class="remove-button" id="remove-button">Remove <i class="fa fa-minus"></i></button>
                 </div>
             </div>
-            <div class="list">
-                <a href="PNM-Dana-Tunai.html" class="list-item">PNM Dana Tunai</a>
-                <a href="#" class="list-item">PNM Optima Bulanan</a>
-                <a href="#" class="list-item">PNM Indeks Infobank15</a>
-    
-            </div>
+
+            <!-- Updated List -->
+            <ul class="list">
+                <li class="list-card">
+                    <a href="product.html" class="list-item">PNM Dana Tunai</a>
+                    <!-- <i class="fa fa-trash" id="trash"></i> -->
+                </li>
+                <li class="list-card">
+                    <a href="#" class="list-item">PNM Optima Bulanan</a>
+                    <!-- <i class="fa fa-trash" id="trash"></i> -->
+                </li>
+                <li class="list-card">
+                    <a href="#" class="list-item">PNM Indeks Infobank15</a>
+                    <!-- <i class="fa fa-trash" id="trash"></i> -->
+                </li>
+            </ul>
         </div>
     
     </main>
 
+    <script src="./js/script.js"></script>
 </body>
 </html>

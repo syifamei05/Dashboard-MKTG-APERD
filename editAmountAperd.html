@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit APERD</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Bareksa</title>
+    <link rel="stylesheet" href="/CSS/aperd.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./CSS/editAperd.css">
 </head>
 <body>
 
@@ -20,24 +19,39 @@
             </a>
         </div>
     </nav>
-
-    <!-- Back Button -->
-    <a href="home.html" class="back-button">
-        <i class="fa fa-arrow-left"></i>
-     </a>
-
-    <!-- Content -->
-    <div class="content">
-        <div class="content-card">
-            <h2>APERD</h2>
-            <!-- Add Remove Button -->
-            <div class="card">
-                <a href="" class="add-button">Add <i class="fa fa-plus"></i></a>
-                <a href="" class="remove-button">Remove <i class="fa fa-minus"></i></a>
-            </div>
-        </div>
-
+    <main>
+        <!-- Back Button -->
+        <a href="home.html" class="back-button">
+            <i class="fa fa-arrow-left"></i>
+         </a>
         
-    </div>
+        <!-- Content -->
+        <div class="content">
+            <div class="content-card">
+                <h2>APERD</h2>
+                <!-- Add Remove Button NEW VERSION -->
+                <div class="card">
+                    <div class="input-card">
+                        <input type="text" id="input-box">
+                    </div>
+                    <button type="button" class="add-button" id="add-button">Add <i class="fa fa-plus"></i></button>
+                    <button type="button" class="remove-button" id="remove-button">Remove <i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+
+            <!-- Updated List -->
+            <ul class="list">
+                <li><a href="bareksa.html" class="list-item">Bareksa</a></li>
+                <li><a href="#" class="list-item">MNC Sekuritas</a></li>
+                <li><a href="#" class="list-item"></a>IPOT</li>
+                <li><a href="#" class="list-item">Bank DBS</a></li>
+                <li><a href="#" class="list-item">AJAIB</a></li>
+                <li><a href="#" class="list-item"></a>INVESNOW</li>
+            </ul>
+        </div>
+    
+    </main>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
